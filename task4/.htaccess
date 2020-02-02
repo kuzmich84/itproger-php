@@ -1,0 +1,3 @@
+ServerSignature OFF
+AddDefaultCharset UTF-8
+ErrorDocument 404 /task4/error.php
