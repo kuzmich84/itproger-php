@@ -1,3 +1,9 @@
 ServerSignature OFF
 AddDefaultCharset UTF-8
 ErrorDocument 404 /task4/error.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteCond %{REQUEST_FILENAME} !-l
+Rewritecond %{REQUEST_FILENAME} !-d
+RewriteRule ^reg?$ reg.php [NC,L]
