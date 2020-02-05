@@ -1,4 +1,4 @@
-<body>
+<body class="d-flex flex-column h-100">
 <?php
 
 $website_title = '404';

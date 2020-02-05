@@ -1,19 +1,40 @@
 .footer {
-    background-color:
-            #f5f5f5;
+    background-color: #f5f5f5;
 }
+
 .mt-auto, .my-auto {
     margin-top: auto !important;
 }
+
 .pb-3, .py-3 {
     padding-bottom: 1rem !important;
 }
+
 .pt-3, .py-3 {
     padding-top: 1rem !important;
 }
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
+
 *, ::after, ::before {
     box-sizing: border-box;
+}
+
+#errorBlock {
+    display: none;
+}
+
+.name-list {
+    background-color: #a1deff;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-user {
+    margin-left: auto;
+
 }
